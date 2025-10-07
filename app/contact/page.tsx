@@ -15,7 +15,7 @@ import { useState } from "react"
 export default function ContactPage() {
   // Set your company's WhatsApp number (international format, no +)
   // Example for a Ugandan number: '256759259569'
-  const WHATSAPP_NUMBER = "256707029929"
+  const WHATSAPP_NUMBER = "256759259569"
 
   const [formData, setFormData] = useState({
     name: "",

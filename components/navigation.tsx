@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -21,6 +22,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">
+            <Image src="/logo.jpg" alt="Hapworth International Logo" width={40} height={40} className="w-8 h-8 md:w-10 md:h-10 rounded-2xl" />
             <div className="text-xl md:text-2xl font-bold text-primary">Hapworth International</div>
           </Link>
 
