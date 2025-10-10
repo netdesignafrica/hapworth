@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { Mail, MapPin, Send, Instagram, Facebook, X } from "lucide-react"
+import { Mail, MapPin, Send, Instagram, Facebook, X, PhoneCall } from "lucide-react"
 import { useState } from "react"
 
 export default function ContactPage() {
@@ -117,7 +117,7 @@ export default function ContactPage() {
                 <div>
                   <h2 className="text-2xl md:text-3xl font-bold mb-4">Contact Information</h2>
                   <div className="space-y-4 md:space-y-6">
-                    <div className="flex items-start gap-4">
+                    <div className="flex items-center gap-4">
                       <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
                         <Mail size={20} className="md:w-6 md:h-6" />
                       </div>
@@ -129,13 +129,25 @@ export default function ContactPage() {
                       </div>
                     </div>
 
-                    <div className="flex items-start gap-4">
+                    <div className="flex items-center gap-4">
                       <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
                         <MapPin size={20} className="md:w-6 md:h-6" />
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1 text-sm md:text-base">Location</h3>
-                        <p className="text-sm md:text-base text-muted-foreground">Serving clients across Africa</p>
+                        <p className="text-sm md:text-base text-muted-foreground">Roberta Plaza,PLOT 202/203 Hoima Road,Bukesa -KAMPALA,UGANDA</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-4">
+                      <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center flex-shrink-0">
+                        <PhoneCall size={20} className="md:w-6 md:h-6" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold mb-1 text-sm md:text-base">Phone</h3>
+                        <a href="tel:+256759259569" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
+                          +256-759-259-569
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -4,6 +4,7 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, Globe, Users, Award, TrendingUp } from "lucide-react"
+import Hero from "@/components/Hero"
 
 export default function HomePage() {
   return (
@@ -11,30 +12,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-background -z-10" />
-        <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-balance mb-6 md:mb-8">
-              Where Ambition Meets <span className="text-blue-600">Opportunity</span>
-            </h1>
-            <p className="text-lg md:text-xl text-muted-foreground text-pretty mb-8 md:mb-10 leading-relaxed">
-              Empowering African talent by connecting them with sustainable and rewarding career opportunities abroad,
-              fostering personal growth, economic advancement, and global impact.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base">
-                <Link href="/services">
-                  Explore Services <ArrowRight className="ml-2" size={20} />
-                </Link>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="text-base bg-transparent">
-                <Link href="/contact">Get Started Today</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       {/* Stats Section */}
       <section className="py-12 md:py-16 bg-muted/50">
