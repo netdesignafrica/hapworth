@@ -10,7 +10,9 @@ import Link from 'next/link'
 const images = [
   '/hero1.jpg',
   '/hero2.jpg',
-  '/hero4.jpg'
+  '/hero3.jpg',
+  '/hero4.jpg',
+  '/landing4.jpg'
 ]
 
 export default function Hero() {
