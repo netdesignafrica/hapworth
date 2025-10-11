@@ -184,11 +184,15 @@ export default function ContactPage() {
               <div className="lg:col-span-2 min-w-0">
                 <Card className="border-2 w-full">
                   <CardContent className="p-4 sm:p-6 md:p-8">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">
+                    <div className="flex mb-6 md:mb-8 items-center space-x-2">
                       <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary/10 text-green-500 flex items-center justify-center flex-shrink-0">
                         <MessageCircle size={20} className="md:w-6 md:h-6" />
                       </div>
-                      Send Us a WhatsApp</h2>
+                      <h2 className="text-2xl md:text-3xl font-bold ">
+                      Send Us a WhatsApp
+                      </h2>
+                    </div>
+                    
                     <form onSubmit={handleSubmit} className="space-y-6">
                       <div className="grid sm:grid-cols-2 gap-6">
                         <div className="space-y-2">
