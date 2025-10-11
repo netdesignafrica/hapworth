@@ -6,6 +6,28 @@ import { UserPlus, Briefcase, FileText, Car, GraduationCap, FileCheck, Plane, Gl
 import Link from "next/link"
 
 export default function ServicesPage() {
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Hapworth International",
+    url: "https://hapworthinternational.com/services",
+    logo: "https://hapworthinternational.com/logo.jpg",
+    sameAs: [
+      "https://instagram.com/hapworthinternational",
+      "https://facebook.com/hapworthinternational",
+      "https://x.com/hapworthinternational",
+    ],
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        email: "hapworthinternational@gmail.com",
+        contactType: "customer support",
+        areaServed: "Africa",
+      },
+    ],
+  }
+
   const services = [
     {
       icon: UserPlus,
@@ -114,6 +136,18 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-screen">
+      {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GD1P3N81MH" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-GD1P3N81MH');`,
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+
       <Navigation />
 
       {/* Hero Section */}
