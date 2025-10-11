@@ -12,7 +12,7 @@ const images = [
   '/hero2.jpg',
   '/hero3.jpg',
   '/hero4.jpg',
-  '/landing4.jpg'
+  '/landing5.jpg'
 ]
 
 export default function Hero() {
