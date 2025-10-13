@@ -8,51 +8,51 @@ import Link from "next/link"
 export default function SuccessStoriesPage() {
   const testimonials = [
     {
-      name: "Amara Okafor",
-      role: "Software Engineer",
-      location: "Now in Germany",
+      name: "Nyamuhaki Denis",
+      role: "Student",
+      location: "Now in Denmark",
       quote:
-        "Hapworth International transformed my career. Within 6 months, I went from searching for opportunities to working at a leading tech company in Berlin. Their support was invaluable.",
+        "Hapworth International transformed my career. I was stuck with tuition fees for my diploma in Animal Husbandry. After consultations from their staff, I succeeded in achieving a paid agricultural internship. I'm soon finishing my internship, and with enough money saved, I can complete my studies and start my own commercial modern farm with skills learned. Thank you, Hapworth International!",
       image: "/african-woman-software-engineer.png",
     },
     {
-      name: "Kwame Mensah",
-      role: "Healthcare Professional",
-      location: "Now in Canada",
+      name: "Abiranga Hassan",
+      role: "Student",
+      location: "Now in Norway",
       quote:
-        "The team at Hapworth guided me through every step - from IELTS preparation to visa processing. I'm now working in my dream hospital in Toronto, and it's all thanks to their expertise.",
+        "I was ovewhelmed by the process of moving abroad to study, but Hapworth International made it seamless. Their personalized approach and attention to detail gave me confidence throught my journey. Iam really greatful to the staff.",
       image: "/professional-african-man-healthcare-worker.jpg",
     },
     {
-      name: "Fatima Hassan",
-      role: "Business Analyst",
-      location: "Now in United Kingdom",
+      name: "Lubega Micheal",
+      role: "Nurse",
+      location: "Now in Canada",
       quote:
-        "I was overwhelmed by the process of moving abroad, but Hapworth made it seamless. Their personalized approach and attention to detail gave me confidence throughout my journey.",
+        "The team of Hapworth International guided me through every step from preperation to visa processing. I recently acquired a work visa to work in a hospital in Torornto. Special thanks to their team for expertise and generous customer experience.",
       image: "/professional-african-woman-business-analyst.jpg",
     },
     {
-      name: "Chidi Nwosu",
-      role: "Mechanical Engineer",
-      location: "Now in Australia",
+      name: "Ssebagala Caleb",
+      role: "Agricultural Student",
+      location: "Now in Denmark",
       quote:
-        "From CV preparation to contract negotiation, Hapworth International exceeded my expectations. I'm now working on exciting projects in Sydney and building a great life here.",
+        "The paid internship program opened doors I never thought possible. I had applied on my own for over a year, used other agencies but was frustrated. Until, I got in touch with hapworth international who hepled me in less than 5 months. From this paid agricultural internship in Denmark for 18 months, I now will learn alot of skill to bring back to my country Uganda.",
       image: "/professional-african-man-engineer.jpg",
     },
     {
-      name: "Zainab Kamara",
-      role: "Marketing Specialist",
-      location: "Now in United States",
+      name: "Otieno Michael",
+      role: "Employee",
+      location: "Now in Netherlands",
       quote:
-        "The paid internship program opened doors I never thought possible. What started as a 6-month internship turned into a full-time position at a Fortune 500 company in New York.",
+        "From CV preperation, IELTs training to contract Negotiation, Hapworth International exceeded my expectations. I'm now working in a food processing plant in Netherlands from neing an intern in a dairy farm. i have managed to build a career and a great life.",
       image: "/professional-african-woman-marketing-specialist.jpg",
     },
     {
-      name: "Tunde Adeyemi",
-      role: "Data Scientist",
-      location: "Now in Netherlands",
+      name: "Nankinga Louise",
+      role: "Student",
+      location: "Now in Switzerland",
       quote:
-        "Hapworth International didn't just help me find a job - they helped me build a career. The comprehensive support and genuine care for my success made all the difference.",
+        "Hapworth International didn't just help me find a job - they helped me build a career in Europe that i thought i had lost back at home. With Savings from my Job as a waitress in an expensive restaurant, I have enrolled to study in a prestigious university. The Comprehensive support and genuine care for my success made all the difference.",
       image: "/african-data-scientist.png",
     },
   ]
@@ -145,7 +145,7 @@ export default function SuccessStoriesPage() {
                     <div className="min-w-0 flex-1">
                       <div className="font-semibold text-sm md:text-base">{testimonial.name}</div>
                       <div className="text-xs md:text-sm text-muted-foreground">{testimonial.role}</div>
-                      <div className="text-xs md:text-sm text-accent font-medium">{testimonial.location}</div>
+                      <div className="text-xs md:text-sm text-gray-400 font-medium">{testimonial.location}</div>
                     </div>
                   </div>
                 </CardContent>
