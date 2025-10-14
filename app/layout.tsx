@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/logo.jpg",
     apple: "/logo.jpg",
-    other: [{ rel: "shortcut icon", url: "/favicon.ico" }],
+    other: [{ rel: "shortcut icon", url: "/logo.jpg" }],
   },
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
