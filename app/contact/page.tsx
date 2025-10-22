@@ -14,8 +14,8 @@ import { useState } from "react"
 
 export default function ContactPage() {
   // Set your company's WhatsApp number (international format, no +)
-  // Example for a Ugandan number: '256759259569'
-  const WHATSAPP_NUMBER = "256759259569"
+  // Example for a Ugandan number: '256790810405'
+  const WHATSAPP_NUMBER = "256790810405"
 
   const [formData, setFormData] = useState({
     name: "",
@@ -101,7 +101,7 @@ export default function ContactPage() {
     sameAs: [
       "https://instagram.com/hapworthinternational",
       "https://facebook.com/hapworthinternational",
-      "https://x.com/hapworthinternational",
+      "https://x.com/Hapworth_Int?t=F3VAhXhdGLUHZnjm5hyydA&s=09",
     ],
     contactPoint: [
       {
@@ -178,9 +178,21 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1 text-sm md:text-base">Phone</h3>
-                        <a href="tel:+256759259569" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
-                          +256-759-259-569
+                        <div>
+                        <a href="tel:+256790810405" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
+                          +256790810405
                         </a>
+                        </div>
+                        <div>
+                        <a href="tel:+256790810416" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
+                          +256790810416
+                        </a>
+                        </div>
+                        <div>
+                        <a href="tel:+256790810390" className="text-sm md:text-base text-muted-foreground hover:text-primary transition-colors break-all">
+                          +256790810390
+                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -206,7 +218,7 @@ export default function ContactPage() {
                     <a href="https://facebook.com/hapworthinternational" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center" aria-label="Facebook">
                       <Facebook size={18} />
                     </a>
-                    <a href="https://x.com/hapworthinternational" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center" aria-label="X (Twitter)">
+                    <a href="https://x.com/Hapworth_Int?t=F3VAhXhdGLUHZnjm5hyydA&s=09" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-colors flex items-center justify-center" aria-label="X (Twitter)">
                       <X size={18} />
                     </a>
                   </div>

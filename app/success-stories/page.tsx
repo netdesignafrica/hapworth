@@ -73,7 +73,7 @@ export default function SuccessStoriesPage() {
     sameAs: [
       "https://instagram.com/hapworthinternational",
       "https://facebook.com/hapworthinternational",
-      "https://x.com/hapworthinternational",
+      "https://x.com/Hapworth_Int?t=F3VAhXhdGLUHZnjm5hyydA&s=09",
     ],
     contactPoint: [
       {

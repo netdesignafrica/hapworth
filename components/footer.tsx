@@ -87,7 +87,7 @@ export function Footer() {
                   <Facebook size={20} />
                 </a>
                 <a
-                  href="https://x.com/hapworthinternational"
+                  href="https://x.com/Hapworth_Int?t=F3VAhXhdGLUHZnjm5hyydA&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
