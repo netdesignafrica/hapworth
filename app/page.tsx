@@ -144,11 +144,19 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-10 md:mt-12">
-            <Button asChild size="lg" variant="outline">
-              <Link href="/services">
-                View All Services <ArrowRight className="ml-2" size={20} />
-              </Link>
-            </Button>
+            <div className="inline-flex items-center justify-center gap-4">
+              <Button asChild size="lg">
+                <Link href="/services">
+                  View All Services <ArrowRight className="ml-2" size={20} />
+                </Link>
+              </Button>
+
+              <Button asChild size="lg" variant="outline">
+                <a href="/APPLICATION FORM - HAPWORTH INTERNATIONAL.docx" download aria-label="Download application form">
+                  Download Application Form
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

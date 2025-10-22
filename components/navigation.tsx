@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
-import { Menu, X } from "lucide-react"
+import { Download, Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Navigation() {
@@ -41,6 +41,11 @@ export function Navigation() {
             <Button asChild size="sm">
               <Link href="/contact">Get Started</Link>
             </Button>
+            <Button asChild size="sm" variant="outline">
+              <a href="/APPLICATION FORM - HAPWORTH INTERNATIONAL.docx" download aria-label="Download application form">
+                  <Download /> Application Form
+              </a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -63,6 +68,11 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
+              <Button asChild className="w-full" variant="outline">
+                <a href="/APPLICATION FORM - HAPWORTH INTERNATIONAL.docx" download aria-label="Download application form">
+                  <Download /> Application Form
+              </a>
+              </Button>
               <Button asChild className="w-full">
                 <Link href="/contact" onClick={() => setIsOpen(false)}>
                   Get Started

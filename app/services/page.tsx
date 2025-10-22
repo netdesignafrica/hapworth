@@ -197,6 +197,15 @@ export default function ServicesPage() {
               </Card>
             ))}
           </div>
+          <div className="text-center mt-10 md:mt-12">
+            <div className="inline-flex items-center justify-center gap-4">
+              <Button asChild size="lg">
+                <a href="/APPLICATION FORM - HAPWORTH INTERNATIONAL.docx" download aria-label="Download application form">
+                  Download Application Form
+                </a>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
